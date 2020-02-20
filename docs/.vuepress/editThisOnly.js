@@ -1,5 +1,5 @@
 module.exports = {
-    repo: 'jokervTv/NumPy-Docs-Chinese',
-    title: 'NumPy 中文文档',
-    description: '这里是 NumPy 1.19dev0 的官方文档中译版'
+    repo: 'jokervTv/wrf_in_chinese',
+    title: 'WRF 中文文档',
+    description: 'WRF 的部分 汉化 文档'
 }
