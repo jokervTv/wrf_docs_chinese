@@ -174,10 +174,10 @@ title: 自述
   - [ ] 10.3 Flux-Adjusting Surface Analysis Nudging
   - [ ] 10.4 Observational or Station Nudging
   - [ ] 10.5 Spectral Nudging
-- [ ] 11 Data Assimilation
-  - [ ] 11.1 Introduction
+- [x] 11 Data Assimilation
+  - [x] 11.1 Introduction
   - [ ] 11.2 Improvements to the WRFDA Algorithm
-    - [ ] 11.2.1 4D-Var and forecast sensitivity to observations
+    - [x] 11.2.1 4D-Var and forecast sensitivity to observations
     - [ ] 11.2.2 Hybrid variational/ensemble techniques
     - [ ] 11.2.3 Satellite radiance data assimilation
     - [ ] 11.2.4 Radar data assimilation
