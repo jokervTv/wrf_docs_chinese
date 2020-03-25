@@ -7,11 +7,25 @@ title: 自述
 :::
 
 这里是笔者学习 [WRF 模式技术手册](http://www2.mmm.ucar.edu/wrf/users/docs/technote/v4_technote.pdf)过程的一个记录。
+作为学习历程的一个记录，也希望能提供一些帮助。
 不禁对自己感概，太菜了，实在是太菜了。
 
-也希望有志同道合的朋友加入进来，一起改善翻译。右上角有我的联系方式。
+## 文档地址
+
+[GitHub Page]()
+
+或本人服务器（适合国内访问）
+
+[jokervtv.top/wrf](https://jokervtv.top/wrf/wrf_technote/)
+
+## 一起学习
+
+也希望有志同道合的朋友加入进来，一起改善翻译和学习。
+你可以直接 *fork* 这个仓库, 修改, 然后 *pull request* 。
 
 ## TODO
+
+### WRFV4 技术手册
 
 - [x] Preface
 - [x] 1 Introduction
