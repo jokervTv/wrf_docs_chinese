@@ -24,11 +24,22 @@ jobs:
       - name: Build
         run: npm install && npm run build --if-present
 
-      - name: Deploy
+      - name: Deploy to gh-page
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: build
+
+      - name: Deploy to server
+        uses: burnett01/rsync-deployments@4.0
+        with:
+          switches: -avzr --delete
+          path: build/
+          remote_path: /home/wwwroot/default/blog/
+          remote_host: ${{ secrets.SERVER_IP }}
+          remote_user: root
+          remote_key: ${{ secrets.SSH_KEY }}
+
         env:
           CI: true
