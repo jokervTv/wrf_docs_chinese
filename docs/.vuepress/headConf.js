@@ -12,7 +12,7 @@ module.exports = [
             var _hmt = _hmt || [];
             (function() {
                 var hm = document.createElement("script");
-                hm.src = "https://hm.baidu.com/hm.js?b0d4503fd4b0433e77fab0d0a924667b";
+                hm.src = "https://hm.baidu.com/hm.js?99a39314a1601be6f4aa0fb35ed29988";
                 var s = document.getElementsByTagName("script")[0];
                 s.parentNode.insertBefore(hm, s);
             })();

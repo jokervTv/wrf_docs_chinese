@@ -9,6 +9,11 @@ module.exports = {
     author: 'jokervTv',
     // 最后更新时间
     lastUpdated: 'Last Updated',
+    // 备案
+    record: '蜀ICP备20002314号',
+    recordLink: 'http://www.beian.miit.gov.cn/',
+    cyberSecurityRecord: '川公网安备 51012202000595号',
+    cyberSecurityLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51012202000595',
     // 项目开始时间
     startYear: '2020',
     editLinks: true,

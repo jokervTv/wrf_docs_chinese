@@ -4,7 +4,7 @@ module.exports = {
     'vuepress-plugin-smooth-scroll': {},
     'seo': {},
     'sitemap': {
-        hostname: 'https://www.jokervtv.top/wrf/'
+        hostname: 'https://jokervtv.top/wrf/'
     },
     'reading-progress': {},
     'vuepress-plugin-auto-sidebar': {
