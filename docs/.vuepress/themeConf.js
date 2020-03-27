@@ -18,5 +18,14 @@ module.exports = {
     startYear: '2020',
     editLinks: true,
     repo: editThisOnly.repo,
-    editLinkText: '帮助我们改善此页面！'
+    editLinkText: '帮助我们改善此页面！',
+    valineConfig: {
+        appId: 'CrLyhWBjuj2e5twD1CzdPken-gzGzoHsz',
+        appKey: 'SVyf25usATLCAriYR4b119HF',
+        avatar: 'hide',
+        verify: true,
+        notify: true,
+        mate: ['nick', 'mail'],
+        placeholder: 'ヾﾉ≧≦)o来啊，快活啊!'
+    },
 }

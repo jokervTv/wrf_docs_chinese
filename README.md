@@ -6,15 +6,14 @@
 
 这里是笔者学习过程的一个记录。
 作为学习历程的一个记录，也希望能提供一些帮助。
-不禁对自己感概，太菜了，实在是太菜了。
 
 ## 文档地址
 
-[GitHub Page]()
+[GitHub Page](https://jokervtv.github.io/wrf_docs_chinese/) (部署故障, 暂时无法访问)
 
-或本人服务器（适合国内访问）
+或
 
-[jokervtv.top/wrf](https://jokervtv.top/wrf/)
+[本人服务器](https://jokervtv.top/wrf/)(适合国内访问)
 
 ## 一起学习
 

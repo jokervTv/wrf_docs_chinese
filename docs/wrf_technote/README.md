@@ -190,13 +190,13 @@ title: 自述
   - [ ] 10.5 Spectral Nudging
 - [x] 11 Data Assimilation
   - [x] 11.1 Introduction
-  - [ ] 11.2 Improvements to the WRFDA Algorithm
+  - [x] 11.2 Improvements to the WRFDA Algorithm
     - [x] 11.2.1 4D-Var and forecast sensitivity to observations
-    - [ ] 11.2.2 Hybrid variational/ensemble techniques
-    - [ ] 11.2.3 Satellite radiance data assimilation
-    - [ ] 11.2.4 Radar data assimilation
-    - [ ] 11.2.5 Choice of control variables
-    - [ ] 11.2.6 Other improvements
+    - [x] 11.2.2 Hybrid variational/ensemble techniques
+    - [x] 11.2.3 Satellite radiance data assimilation
+    - [x] 11.2.4 Radar data assimilation
+    - [x] 11.2.5 Choice of control variables
+    - [x] 11.2.6 Other improvements
   - [ ] 11.3 Background Error Covariances
     - [ ] 11.3.1 Removal of time-mean
     - [ ] 11.3.2 Multivariate Covariances: Regression coefficients and unbalanced variables
