@@ -197,11 +197,11 @@ title: 自述
     - [x] 11.2.4 Radar data assimilation
     - [x] 11.2.5 Choice of control variables
     - [x] 11.2.6 Other improvements
-  - [ ] 11.3 Background Error Covariances
-    - [ ] 11.3.1 Removal of time-mean
-    - [ ] 11.3.2 Multivariate Covariances: Regression coefficients and unbalanced variables
-    - [ ] 11.3.3 Vertical Covariances: Eigenvectors/eigenvalues and control variable pro-jections
-    - [ ] 11.3.4 Horizontal Covariances: Recursive filter lengthscale (regional), or power spectra (global)
+  - [x] 11.3 Background Error Covariances
+    - [x] 11.3.1 Removal of time-mean
+    - [x] 11.3.2 Multivariate Covariances: Regression coefficients and unbalanced variables
+    - [x] 11.3.3 Vertical Covariances: Eigenvectors/eigenvalues and control variable pro-jections
+    - [x] 11.3.4 Horizontal Covariances: Recursive filter lengthscale (regional), or power spectra (global)
 - [ ] A Physical Constants
 - [ ] B List of Symbols
 - [ ] C Acronyms
