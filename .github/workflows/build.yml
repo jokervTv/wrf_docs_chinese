@@ -31,15 +31,5 @@ jobs:
           BRANCH: gh-pages
           FOLDER: build
 
-      - name: Deploy to server
-        uses: burnett01/rsync-deployments@4.0
-        with:
-          switches: -avzr --delete
-          path: build/
-          remote_path: /home/wwwroot/default/wrf/
-          remote_host: ${{ secrets.SERVER_IP }}
-          remote_user: root
-          remote_key: ${{ secrets.SSH_KEY }}
-
         env:
           CI: true

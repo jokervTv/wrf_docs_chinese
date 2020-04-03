@@ -4,7 +4,7 @@ const themeConf = require('./themeConf');
 const editThisOnly = require('./editThisOnly');
 
 module.exports = {
-    base: '/wrf/',
+    base: '/wrf_docs_chinese/',
     title: editThisOnly.title,
     description: editThisOnly.description,
     dest: 'build',
