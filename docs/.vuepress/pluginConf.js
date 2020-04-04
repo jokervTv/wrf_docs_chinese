@@ -13,5 +13,9 @@ module.exports = {
     '@vuepress/google-analytics': {
         'ga': googleAnalytics
     },
+    'graysite': {
+        startDate: '2020-04-03 00:00:00',
+        endDate: '2020-04-04 23:59:59'
+    },
     'flowchart':{}
 }

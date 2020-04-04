@@ -13,6 +13,7 @@
     "vuepress-plugin-reading-progress": "^1.0.9",
     "vuepress-plugin-seo": "^0.1.2",
     "vuepress-theme-reco": "1.3.2",
+    "vuepress-plugin-graysite": "^0.1.0",
     "@vuepress/plugin-google-analytics": "^1.4.0",
     "vuepress-plugin-baidu-autopush": "^1.0.1",
     "vuepress-plugin-sitemap": "^2.3.1"
