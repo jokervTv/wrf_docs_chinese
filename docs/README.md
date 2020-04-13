@@ -1,9 +1,8 @@
 ---
 home: true
-isShowTitleInHome: true
-heroImage: /cat.jpg
+isShowTitleInHome: false
 actionText: Go
-actionLink: /Guide
+actionLink: /wrf_technote/
 features:
 - title: Yesterday
   details: 记录一些个人学习中接触的英文文档，并译为中文
