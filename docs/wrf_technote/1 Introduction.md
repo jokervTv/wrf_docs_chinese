@@ -6,7 +6,7 @@ categories:
 tags:
  - translate
  - WRF
-description: WRF 技术手册 第4版 中英对照文档
+description: WRF 技术手册 第 4 版 中英对照文档
 autoGroup-1: 简介
 ---
 
@@ -16,7 +16,7 @@ The Weather Research and Forecasting (WRF) Model is an atmospheric modeling syst
 
 ***
 
-WRF 的开发始于1990年代后半期，其目标是建立一个由研究和业务部门共享的系统，并构建下一代数值天气预报（NWP）能力。新的模式系统已经成为一个通用平台，广大研究团体可以在此平台上开发过渡到业务系统的功能，而对业务绩效的额外审查可以指导并加速开发。
+WRF 的开发始于 1990 年代后半期，其目标是建立一个由研究和业务部门共享的系统，并构建下一代数值天气预报（NWP）能力。新的模式系统已经成为一个通用平台，广大研究团体可以在此平台上开发过渡到业务系统的功能，而对业务绩效的额外审查可以指导并加速开发。
 
 WRF development began in the latter half of the 1990’s with the goals being to build a system shared by research and operations and to create a next-generation numerical weather prediction (NWP) capability. The new modeling system has become a common platform on which the broad research community can develop capabilities that can transition to operations, while the extra scrutiny of performance in operations could guide and accelerate development.
 

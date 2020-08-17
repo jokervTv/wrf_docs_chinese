@@ -6,7 +6,7 @@ categories:
 tags:
  - translate
  - WRF
-description: WRF 技术手册 第4版 中英对照文档
+description: WRF 技术手册 第 4 版 中英对照文档
 autoGroup-2: 控制方程组
 ---
 

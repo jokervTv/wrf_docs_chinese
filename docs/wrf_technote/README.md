@@ -6,7 +6,7 @@ title: 自述
 限于笔者水平和文章时效，还请保持警惕并以原文为主
 :::
 
-这里是笔者学习 [WRF 模式技术手册](http://www2.mmm.ucar.edu/wrf/users/docs/technote/v4_technote.pdf)过程的一个记录。
+这里是笔者学习 [WRF 模式技术手册](http://www2.mmm.ucar.edu/wrf/users/docs/technote/v4_technote.pdf) 过程的一个记录。
 作为学习历程的一个记录，也希望能提供一些帮助。
 不禁对自己感概，太菜了，实在是太菜了。
 
@@ -21,7 +21,7 @@ title: 自述
 ## 一起学习
 
 也希望有志同道合的朋友加入进来，一起改善翻译和学习。
-你可以直接 *fork* 这个仓库, 修改, 然后 *pull request* 。
+你可以直接 *fork* 这个仓库，修改，然后 *pull request* 。
 
 ## TODO
 
