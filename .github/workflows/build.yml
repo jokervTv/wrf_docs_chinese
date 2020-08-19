@@ -36,9 +36,9 @@ jobs:
         with:
           switches: -avzr --delete
           path: build/
-          remote_path: /home/wwwroot/default/wrf/
+          remote_path: ${{ secrets.REMOTE_PATH }}
           remote_host: ${{ secrets.SERVER_IP }}
-          remote_user: root
+          remote_user: ${{ secrets.USER }}
           remote_key: ${{ secrets.SSH_KEY }}
 
         env:
