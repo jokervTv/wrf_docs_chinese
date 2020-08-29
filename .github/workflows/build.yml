@@ -31,15 +31,16 @@ jobs:
           BRANCH: gh-pages
           FOLDER: build
 
-      - name: Deploy to server
-        uses: burnett01/rsync-deployments@4.0
-        with:
-          switches: -avzr --delete
-          path: build/
-          remote_path: ${{ secrets.REMOTE_PATH }}
-          remote_host: ${{ secrets.SERVER_IP }}
-          remote_user: ${{ secrets.USER }}
-          remote_key: ${{ secrets.SSH_KEY }}
+    - name: Deploy
+      uses: easingthemes/ssh-deploy@v2.1.4
+      with:
+        ARGS: -avzr --delete
+        SOURCE: build/
+        TARGET: ${{ secrets.REMOTE_PATH }}
+        REMOTE_HOST: ${{ secrets.SERVER_IP }}
+        REMOTE_USER: ${{ secrets.USER }}
+        SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
+        REMOTE_PORT: '10086'
 
         env:
           CI: true
