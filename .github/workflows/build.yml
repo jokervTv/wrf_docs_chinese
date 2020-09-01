@@ -1,46 +1,35 @@
 name: Build and Deploy
 
-on:
-  push:
-    branches:
-      - master
+on: push
 
 jobs:
 
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [12.x]
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
+    - name: Checkout
+      uses: actions/checkout@v2
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
-        with:
-          node-version: ${{ matrix.node-version }}
-
-      - name: Build
-        run: npm install && npm run build --if-present
-
-      - name: Deploy to gh-page
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: build
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: Build
+      run: npm install && npm run build --if-present
 
     - name: Deploy
-      uses: easingthemes/ssh-deploy@v2.1.4
+      uses: Burnett01/rsync-deployments@4.1
       with:
-        ARGS: -avzr --delete
-        SOURCE: build/
-        TARGET: ${{ secrets.REMOTE_PATH }}
-        REMOTE_HOST: ${{ secrets.SERVER_IP }}
-        REMOTE_USER: ${{ secrets.USER }}
-        SSH_PRIVATE_KEY: ${{ secrets.SSH_KEY }}
-        REMOTE_PORT: '10086'
+        switches: -avzr --delete
+        path: build/
+        remote_path: ${{ secrets.REMOTE_PATH }}
+        remote_host: ${{ secrets.SERVER_IP }}
+        remote_user: ${{ secrets.USER }}
+        remote_key: ${{ secrets.SSH_KEY }}
 
-        env:
-          CI: true
+    env:
+      CI: true
