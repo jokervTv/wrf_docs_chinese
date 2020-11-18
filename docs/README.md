@@ -1,7 +1,6 @@
 ---
 home: true
 isShowTitleInHome: true
-heroImage: /cat.jpg
 actionText: Go
 actionLink: /Guide
 features:
