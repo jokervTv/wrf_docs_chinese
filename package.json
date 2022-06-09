@@ -27,6 +27,7 @@
     "vuepress-theme-reco": "^1.6.13"
   },
   "dependencies": {
-    "npm-check-updates": "^13.1.2"
+    "npm-check-updates": "^13.1.2",
+    "vue": "^2.6.14"
   }
 }
